@@ -1,6 +1,7 @@
 # genshin-wish-tracker
 
 Just a script that pulls wish data and exports to a text file. Might be useful if you wanted to back it up or look at it without going through the web interface.
+Only tested on America servers.
 
 ## How it works
 
