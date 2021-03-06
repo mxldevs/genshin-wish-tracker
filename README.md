@@ -13,16 +13,25 @@ This script basically automates it for you and will create a comma-separated tex
 
 Press the "Code" button and then download the zip file. All you need is client.py and config.txt
 
+## Requirements
+
+This is a python script. If you don't have python installed, you can get it from here: https://www.python.org/
+I tested with python 3.8.2. I could have used Java since all windows machines come with that installed but python was faster to set up for me.
+
 ## Usage 
 
 In order to get the wish history, this script will need to make a request to the game servers using your current login session. Instead of using your username and password, we will assume you are already logged in to the game.
 
 Open the game menu and select "Feedback". This will open your browser. Copy the entire URL, open "config.txt" in notepad, and replace whatever is inside with the URL.
 
-Once this is done, you can then run the script, assuming you have python installed.
+Once this is done, you can then run the script.
 
 When the script finishes running, it will create a file called "log.csv". It will also create another file called "history.dat" which just holds all of the old data that the script uses to generate the log (in case it gets deleted from their history)
 
 ## Security
 
 All of the code is contained inside client.py. You can take a look at it if you're curious if it's doing anything weird.
+
+## Risks
+
+Can you get banned? I don't know. All this script does is pull the wish history which should be basically the same as what the game does. Use as your own risk.
