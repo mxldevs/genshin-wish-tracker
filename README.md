@@ -24,7 +24,11 @@ In order to get the wish history, this script will need to make a request to the
 
 Open the game menu and select "Feedback". This will open your browser. Copy the entire URL, open "config.txt" in notepad, and replace whatever is inside with the URL.
 
-Once this is done, you can then run the script.
+Once this is done, you can then run the script. Double-click on it might work if PATH is set up for `.py` files, or open command prompt and run
+
+````
+py client.py
+````
 
 When the script finishes running, it will create a file called "log.csv". It will also create another file called "history.dat" which just holds all of the old data that the script uses to generate the log (in case it gets deleted from their history)
 
