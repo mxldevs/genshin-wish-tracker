@@ -38,4 +38,9 @@ All of the code is contained inside client.py. You can take a look at it if you'
 
 ## Risks
 
-Can you get banned? I don't know. All this script does is pull the wish history which should be basically the same as what the game does. Use as your own risk.
+Can you get banned? I don't know. 
+Mihoyo's stance on scripts: https://genshin.mihoyo.com/en/news/detail/5763
+
+All this script does is pull the wish history which is basically the same as what the game does, and doesn't affect progress, but who knows.
+
+So use at your own risk.
